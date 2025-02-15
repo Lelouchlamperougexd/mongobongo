@@ -26,6 +26,7 @@ This project is a secure and interactive web application built with **Node.js, E
 - **Deployment:**
   - Configured for deployment on **Render.com**
   - Uses **environment variables** for sensitive data management
+  ![alt text](image-8.png)
 
 ## Technologies Used
 - **Backend:** Node.js, Express.js
@@ -92,16 +93,6 @@ Then, open `http://localhost:3000` in your browser.
  └── README.md (Project Documentation)
 ```
 
-## Additional Features to Implement
-- Implement **CSRF protection** using `csurf`
-- Improve **error handling** using `express-validator`
-- Implement **profile picture upload** feature
-
 ## License
 This project is licensed under the **MIT License**.
-
----
-**Author:** Your Name  
-**GitHub:** [Your GitHub Profile](https://github.com/your-profile)  
-**Deployed App:** [Your Heroku Link](https://your-heroku-app.herokuapp.com/)
 
