@@ -14,14 +14,17 @@ This project is a secure and interactive web application built with **Node.js, E
   - Account locking after 5 failed login attempts
   ![alt text](image-2.png)
   - Password reset functionality via email (`nodemailer`)
+  ![alt text](image-3.png)
 - **Database Management:**
   - MongoDB Atlas integration for cloud database storage
+  ![alt text](image-4.png)
   - CRUD operations (Create, Read, Update, Delete) for user data
+  ![alt text](image-5.png)![alt text](image-6.png)![alt text](image-7.png)
 - **EJS Templating:**
   - Dynamic rendering of user data with `EJS`
   - Bootstrap-styled forms and UI components
 - **Deployment:**
-  - Configured for deployment on **Heroku**
+  - Configured for deployment on **Render.com**
   - Uses **environment variables** for sensitive data management
 
 ## Technologies Used
@@ -37,8 +40,8 @@ Make sure you have **Node.js** and **MongoDB Atlas** set up.
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-repo.git
-cd your-repo
+git clone https://github.com/Lelouchlamperougexd/mongobongo.git
+cd mongobongo.git
 ```
 
 ### 2. Install Dependencies
@@ -61,34 +64,14 @@ npm start
 ```
 Then, open `http://localhost:3000` in your browser.
 
-## Deployment on Heroku
-1. **Create a Heroku App**:
-   ```bash
-   heroku create your-app-name
-   ```
-2. **Add MongoDB Atlas Configuration**:
-   ```bash
-   heroku config:set DB_URL=your-mongodb-atlas-url
-   heroku config:set EMAIL=your-email@gmail.com
-   heroku config:set EMAIL_PSWRD=your-email-password
-   ```
-3. **Deploy the App**:
-   ```bash
-   git add .
-   git commit -m "Deploy to Heroku"
-   git push heroku main
-   ```
-4. **Open the Deployed App**:
-   ```bash
-   heroku open
-   ```
-
 ## Usage
 1. **Register** a new admin account.
 2. **Log in** with the admin account.
 3. **Add, edit, and delete** student records.
 4. **Reset password** via email if forgotten.
-5. **Deploy to Heroku** for public access.
+5. **Deploy to Render** for public access.
+
+## https://mongobongo.onrender.com/
 
 ## Project Structure
 ```
@@ -103,8 +86,6 @@ Then, open `http://localhost:3000` in your browser.
  │   ├── reset-password.ejs
  ├── 📂 public/ (Static assets)
  │   ├── styles.css
- ├── 📂 models/ (Mongoose schemas)
- ├── 📂 routes/ (Express routes)
  ├── server.js (Main application file)
  ├── package.json
  ├── .env (Environment variables)
